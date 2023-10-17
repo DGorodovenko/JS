@@ -29,3 +29,7 @@ for(let peopleRole in spaceship.crew){
     `${peopleRole}: ${spaceship.crew[peopleRole].name}`
   )
 }
+
+for (let crewMember in spaceship.crew) {
+console.log(`${spaceship.crew[crewMember].name}: ${spaceship.crew[crewMember].degree}`)
+};
